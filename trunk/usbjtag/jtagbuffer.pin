@@ -54,46 +54,46 @@ CHIP  "jtagbuffer"  ASSIGNED TO AN: EPM7032BTC44-7
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
 -------------------------------------------------------------------------------------------------------------
 TDI                          : 1         : input  : LVTTL             :         : 1         : N              
-TDO_IN                       : 2         : output : LVTTL             :         : 1         : Y              
-TMS_OUT                      : 3         : input  : LVTTL             :         : 1         : Y              
+VREF_N_IN                    : 2         : output : LVTTL             :         : 1         : Y              
+SRST_N_IN                    : 3         : output : LVTTL             :         : 1         : Y              
 GND                          : 4         : gnd    :                   :         :           :                
-GND*                         : 5         :        :                   :         : 1         :                
-JTAG_OE_N                    : 6         : input  : LVTTL             :         : 1         : Y              
+TRST_N_OUT                   : 5         : input  : LVTTL             :         : 1         : Y              
+SRST_N_OUT                   : 6         : input  : LVTTL             :         : 1         : Y              
 TMS                          : 7         : input  : LVTTL             :         : 1         : N              
-VREF_N_IN                    : 8         : output : LVTTL             :         : 1         : Y              
+TRST_N_OE_N                  : 8         : input  : LVTTL             :         : 1         : Y              
 VCCIO1                       : 9         : power  :                   : 3.3V    : 1         :                
-SRST_N_IN                    : 10        : output : LVTTL             :         : 1         : Y              
-TRST_N_OUT                   : 11        : input  : LVTTL             :         : 1         : Y              
-SRST_N_OUT                   : 12        : input  : LVTTL             :         : 1         : Y              
-TRST_N_OE_N                  : 13        : input  : LVTTL             :         : 1         : Y              
-SRST_N_OE_N                  : 14        : input  : LVTTL             :         : 1         : Y              
-Y_LED                        : 15        : output : LVTTL             :         : 1         : Y              
+SRST_N_OE_N                  : 10        : input  : LVTTL             :         : 1         : Y              
+JTAG_OE_N                    : 11        : input  : LVTTL             :         : 1         : Y              
+TMS_OUT                      : 12        : input  : LVTTL             :         : 1         : Y              
+Y_LED                        : 13        : output : LVTTL             :         : 1         : Y              
+VREF_LED                     : 14        : output : LVTTL             :         : 1         : Y              
+GND*                         : 15        :        :                   :         : 1         :                
 GND                          : 16        : gnd    :                   :         :           :                
 VCCINT                       : 17        : power  :                   : 2.5V    :           :                
 GND*                         : 18        :        :                   :         : 2         :                
 GND*                         : 19        :        :                   :         : 2         :                
-GND*                         : 20        :        :                   :         : 2         :                
-GND*                         : 21        :        :                   :         : 2         :                
-GND*                         : 22        :        :                   :         : 2         :                
-GND*                         : 23        :        :                   :         : 2         :                
+SRST_N                       : 20        : bidir  : LVTTL             :         : 2         : Y              
+armTDO                       : 21        : input  : LVTTL             :         : 2         : Y              
+armTCK                       : 22        : output : LVTTL             :         : 2         : Y              
+armTMS                       : 23        : output : LVTTL             :         : 2         : Y              
 GND                          : 24        : gnd    :                   :         :           :                
-GND*                         : 25        :        :                   :         : 2         :                
+armTDI                       : 25        : output : LVTTL             :         : 2         : Y              
 TCK                          : 26        : input  : LVTTL             :         : 2         : N              
-SRST_N                       : 27        : bidir  : LVTTL             :         : 2         : Y              
-VREF                         : 28        : input  : LVTTL             :         : 2         : Y              
+TRST_N                       : 27        : output : LVTTL             :         : 2         : Y              
+GND*                         : 28        :        :                   :         : 2         :                
 VCCIO2                       : 29        : power  :                   : 3.3V    : 2         :                
-armTDO                       : 30        : input  : LVTTL             :         : 2         : Y              
-armTCK                       : 31        : output : LVTTL             :         : 2         : Y              
+VREF                         : 30        : input  : LVTTL             :         : 2         : Y              
+GND*                         : 31        :        :                   :         : 2         :                
 TDO                          : 32        : output : LVTTL             :         : 2         : N              
-armTMS                       : 33        : output : LVTTL             :         : 2         : Y              
-armTDI                       : 34        : output : LVTTL             :         : 2         : Y              
-TRST_N                       : 35        : output : LVTTL             :         : 2         : Y              
+GND*                         : 33        :        :                   :         : 2         :                
+GND*                         : 34        :        :                   :         : 2         :                
+GND*                         : 35        :        :                   :         : 2         :                
 GND                          : 36        : gnd    :                   :         :           :                
 GND+                         : 37        :        :                   :         :           :                
 GND+                         : 38        :        :                   :         :           :                
 GND+                         : 39        :        :                   :         :           :                
 GND+                         : 40        :        :                   :         :           :                
 VCCINT                       : 41        : power  :                   : 2.5V    :           :                
-VREF_LED                     : 42        : output : LVTTL             :         : 1         : Y              
-TCK_OUT                      : 43        : input  : LVTTL             :         : 1         : Y              
-TDI_OUT                      : 44        : input  : LVTTL             :         : 1         : Y              
+TCK_OUT                      : 42        : input  : LVTTL             :         : 1         : Y              
+TDI_OUT                      : 43        : input  : LVTTL             :         : 1         : Y              
+TDO_IN                       : 44        : output : LVTTL             :         : 1         : Y              
