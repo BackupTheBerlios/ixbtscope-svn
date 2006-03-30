@@ -1,0 +1,99 @@
+ -- Copyright (C) 1991-2006 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (2.5V).
+ -- VCCIO1        : Dedicated power pin, which MUST be connected to VCC  (3.3V).
+ -- VCCIO2        : Dedicated power pin, which MUST be connected to VCC  (3.3V).
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   This pin can either be left unconnected or
+ --           	    connected to GND.  Connecting this pin to GND will improve the
+ --           	    device's immunity to noise.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- NON_MIGRATABLE: This pin cannot be migrated.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 5.1 Build 216 03/06/2006 Service Pack 2 SJ Full Version
+CHIP  "jtagbuffer"  ASSIGNED TO AN: EPM7032BTC44-7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+TDI                          : 1         : input  : LVTTL             :         : 1         : N              
+VREF_N_IN                    : 2         : output : LVTTL             :         : 1         : Y              
+SRST_N_IN                    : 3         : output : LVTTL             :         : 1         : Y              
+GND                          : 4         : gnd    :                   :         :           :                
+TRST_N_OUT                   : 5         : input  : LVTTL             :         : 1         : Y              
+SRST_N_OUT                   : 6         : input  : LVTTL             :         : 1         : Y              
+TMS                          : 7         : input  : LVTTL             :         : 1         : N              
+TRST_N_OE_N                  : 8         : input  : LVTTL             :         : 1         : Y              
+VCCIO1                       : 9         : power  :                   : 3.3V    : 1         :                
+SRST_N_OE_N                  : 10        : input  : LVTTL             :         : 1         : Y              
+JTAG_OE_N                    : 11        : input  : LVTTL             :         : 1         : Y              
+TMS_OUT                      : 12        : input  : LVTTL             :         : 1         : Y              
+Y_LED                        : 13        : output : LVTTL             :         : 1         : Y              
+VREF_LED                     : 14        : output : LVTTL             :         : 1         : Y              
+GND*                         : 15        :        :                   :         : 1         :                
+GND                          : 16        : gnd    :                   :         :           :                
+VCCINT                       : 17        : power  :                   : 2.5V    :           :                
+GND*                         : 18        :        :                   :         : 2         :                
+GND*                         : 19        :        :                   :         : 2         :                
+SRST_N                       : 20        : bidir  : LVTTL             :         : 2         : Y              
+armTDO                       : 21        : input  : LVTTL             :         : 2         : Y              
+armTCK                       : 22        : output : LVTTL             :         : 2         : Y              
+armTMS                       : 23        : output : LVTTL             :         : 2         : Y              
+GND                          : 24        : gnd    :                   :         :           :                
+armTDI                       : 25        : output : LVTTL             :         : 2         : Y              
+TCK                          : 26        : input  : LVTTL             :         : 2         : N              
+TRST_N                       : 27        : output : LVTTL             :         : 2         : Y              
+GND*                         : 28        :        :                   :         : 2         :                
+VCCIO2                       : 29        : power  :                   : 3.3V    : 2         :                
+VREF                         : 30        : input  : LVTTL             :         : 2         : Y              
+GND*                         : 31        :        :                   :         : 2         :                
+TDO                          : 32        : output : LVTTL             :         : 2         : N              
+GND*                         : 33        :        :                   :         : 2         :                
+GND*                         : 34        :        :                   :         : 2         :                
+GND*                         : 35        :        :                   :         : 2         :                
+GND                          : 36        : gnd    :                   :         :           :                
+GND+                         : 37        :        :                   :         :           :                
+GND+                         : 38        :        :                   :         :           :                
+GND+                         : 39        :        :                   :         :           :                
+GND+                         : 40        :        :                   :         :           :                
+VCCINT                       : 41        : power  :                   : 2.5V    :           :                
+TCK_OUT                      : 42        : input  : LVTTL             :         : 1         : Y              
+TDI_OUT                      : 43        : input  : LVTTL             :         : 1         : Y              
+TDO_IN                       : 44        : output : LVTTL             :         : 1         : Y              

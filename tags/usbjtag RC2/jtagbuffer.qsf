@@ -1,0 +1,77 @@
+# Copyright (C) 1991-2006 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		jtagbuffer_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY MAX7000B
+set_global_assignment -name DEVICE "EPM7032BTC44-7"
+set_global_assignment -name TOP_LEVEL_ENTITY jtagbuffer
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:37:53  MARCH 24, 2006"
+set_global_assignment -name LAST_QUARTUS_VERSION "5.1 SP2"
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name VERILOG_FILE jtagbuffer/src/jtagbuffer.v
+set_location_assignment PIN_35 -to TRST_N
+set_location_assignment PIN_27 -to SRST_N
+set_location_assignment PIN_42 -to VREF_LED
+set_location_assignment PIN_8 -to VREF_N_IN
+set_location_assignment PIN_14 -to SRST_N_OE_N
+set_location_assignment PIN_12 -to SRST_N_OUT
+set_location_assignment PIN_13 -to TRST_N_OE_N
+set_location_assignment PIN_11 -to TRST_N_OUT
+set_location_assignment PIN_6 -to JTAG_OE_N
+set_location_assignment PIN_43 -to TCK_OUT
+set_location_assignment PIN_3 -to TMS_OUT
+set_location_assignment PIN_44 -to TDI_OUT
+set_location_assignment PIN_2 -to TDO_IN
+set_location_assignment PIN_10 -to SRST_N_IN
+set_location_assignment PIN_31 -to armTCK
+set_location_assignment PIN_33 -to armTMS
+set_location_assignment PIN_34 -to armTDI
+set_location_assignment PIN_30 -to armTDO
+set_location_assignment PIN_28 -to VREF
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER SRST_N -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TRST_N -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VREF -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER armTCK -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER armTDI -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER armTDO -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER armTMS -section_id armJTAG
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER JTAG_OE_N -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER SRST_N_IN -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER SRST_N_OE_N -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER SRST_N_OUT -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TCK_OUT -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TDI_OUT -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TDO_IN -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TMS_OUT -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TRST_N_OE_N -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER TRST_N_OUT -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VREF_LED -section_id "FT2232C Bus"
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VREF_N_IN -section_id "FT2232C Bus"
+set_location_assignment PIN_15 -to Y_LED
+set_global_assignment -name WEAK_PULL_UP_RESISTOR ON
+set_global_assignment -name MAX7000_OPTIMIZATION_TECHNIQUE BALANCED
+set_global_assignment -name AUTO_GLOBAL_OE_MAX ON
+set_instance_assignment -name IO_STANDARD LVTTL -to TRST_N
