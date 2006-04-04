@@ -1,0 +1,117 @@
+(ExpressProject "ARMScope"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\armscope.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (IDT71V3558S_256x18
+      (FullPartName "IDT71V3558S_256x18.Normal")
+      (LibraryName "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (DeviceIndex "0"))
+    (IDT71V321L/FP
+      (FullPartName "IDT71V321L/FP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\SRAM.OLB")
+      (DeviceIndex "0"))
+    (XC3S200-5PQ208C
+      (FullPartName "XC3S200-5PQ208CB.Normal")
+      (LibraryName "C:\ORCAD\PROTELLIB\XILINX\XILINX SPARTAN-3.OLB")
+      (DeviceIndex "1"))
+    (LPC2148
+      (FullPartName "LPC2148.Normal")
+      (LibraryName "C:\ORCAD_PROJECT\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (DeviceIndex "0"))
+    (2138
+      (FullPartName "2138.Normal")
+      (LibraryName "C:\ORCAD_PROJECT\DSO\ARMSCOPE\ARM38\ARM\ORCAD\LPC2138.OLB")
+      (DeviceIndex "0"))
+    (XC3S200-4VQ100I
+      (FullPartName "XC3S200-4VQ100IB.Normal")
+      (LibraryName "C:\ORCAD\PROTELLIB\XILINX\XILINX SPARTAN-3.OLB")
+      (DeviceIndex "1"))
+    (IDT71V416/SO44
+      (FullPartName "IDT71V416/SO44.Normal")
+      (LibraryName "C:\ORCAD_PROJECT\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (DeviceIndex "0"))
+    (IDT71V016S/SO
+      (FullPartName "IDT71V016S/SO.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\SRAM.OLB")
+      (DeviceIndex "0"))
+    ("AT91SAM7S64 TQFP64"
+      (FullPartName "AT91SAM7S64 TQFP64.Normal")
+      (LibraryName "C:\ARM\BOARDS\AT91_ORCAD\AT91SAM7S64_TQFP64.OLB")
+      (DeviceIndex "0"))
+    (XC3S200-4TQ144I
+      (FullPartName "XC3S200-4TQ144IA.Normal")
+      (LibraryName "C:\ORCAD\PROTELLIB\XILINX\XILINX SPARTAN-3.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\armscope.dsn")
+      (Path "Design Resources" ".\armscope.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\armscope.dsn" "SCHEMATIC1" "CPU_At91"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 33 233 56 459"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 44 914 58 495")
+        (Scroll "82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CPU_At91"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 66 936 87 524")
+        (Scroll "408 73")
+        (Zoom "92")
+        (Occurrence "/"))
+      (Path "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FPGA208"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 154 1024 203 640")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Periph"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 870 0 437")
+        (Scroll "0 48")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FPGA100"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 132 1002 174 611")
+        (Scroll "115 30")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\ORCAD_~1\DSO\ARMSCOPE\ARMSCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Input_OLD1")))
+  (MPSSessionName "Khach"))
