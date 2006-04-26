@@ -1,0 +1,172 @@
+(ExpressProject "DSO 2006"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\dso 2006.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CY7C1021CV33
+      (FullPartName "CY7C1021CV33.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (EP2C5Q208
+      (FullPartName "EP2C5Q208H.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\LIBRARY3.OLB")
+      (DeviceIndex "7"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74LVC04/SO
+      (FullPartName "74LVC04/SO.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "5"))
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (EPCS1
+      (FullPartName "EPCS1.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (AD9218
+      (FullPartName "AD9218.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("GND_FIELD SIGNAL"
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM317/TO263
+      (FullPartName "LM317/TO263.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D1N4001
+      (FullPartName "D1N4001.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (LM7905C/TO220
+      (FullPartName "LM7905C/TO220.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (LM340/TO220
+      (FullPartName "LM340/TO220.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    ("8 HEADER"
+      (FullPartName "8 HEADER.Normal")
+      (LibraryName "C:\CADENCE\PSD_14.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 847 -4 -34 -1 414 1 848"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 0 847 -1 -1 22 1122 33 651")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\MY DOCUMENTS\PROJECTS\POWER1\DSO 2006.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 640 851 -4 -34 300 946 46 664")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\MY DOCUMENTS\PROJECTS\POWER1\DSO 2006.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE5"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 480 847 -1 -1 110 1210 165 783")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\MY DOCUMENTS\PROJECTS\POWER1\DSO 2006.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 960 847 -4 -34 0 1075 0 622")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\MY DOCUMENTS\PROJECTS\POWER1\DSO 2006.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE6"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 800 851 -4 -34 22 1097 33 655")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path
+         "E:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\MY DOCUMENTS\PROJECTS\POWER1\DSO 2006.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE7")))
+  (MPSSessionName "Administrator")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\PSD_14.2\tools\capture\library"))
