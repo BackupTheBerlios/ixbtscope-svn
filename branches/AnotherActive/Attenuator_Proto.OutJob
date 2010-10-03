@@ -2,7 +2,7 @@
 Version=1.0
 
 [OutputGroup1]
-Name=DE0_VideoADC.OutJob
+Name=Attenuator_Proto.OutJob
 Description=
 TargetOutputMedium=PCB fabrication data
 IncludedInRelease=1
@@ -91,7 +91,7 @@ OutputEnabled2_OutputMedium8=0
 OutputEnabled2_OutputMedium9=0
 OutputEnabled2_OutputMedium10=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.40|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.19|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=CustomCamera=False|LockResAspect=True|LookAtX=49150000|LookAtY=53550000|LookAtZ=-1000|QuatW=1|QuatX=0|QuatY=0|QuatZ=0|Record=Pcb3DPrintView|ResX=150|ResY=150|UnitsDPI=True|UnitsPercent=True|ViewConfig= |ViewConfigType=.config_3d|ViewFromTop=True|ViewX=60000000|ViewY=40000000|Zoom=6.30000022283639E-6
 OutputType3=Schematic Print
@@ -335,7 +335,7 @@ OutputType10=NC Drill
 OutputName10=NC Drill Files
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -343,7 +343,7 @@ OutputEnabled10_OutputMedium4=0
 OutputEnabled10_OutputMedium5=0
 OutputEnabled10_OutputMedium6=0
 OutputEnabled10_OutputMedium7=0
-OutputEnabled10_OutputMedium8=2
+OutputEnabled10_OutputMedium8=0
 OutputEnabled10_OutputMedium9=0
 OutputEnabled10_OutputMedium10=0
 OutputDefault10=0
@@ -847,7 +847,7 @@ OutputEnabled21_OutputMedium8=0
 OutputEnabled21_OutputMedium9=0
 OutputEnabled21_OutputMedium10=0
 OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.40|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.19|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration21_Name1=OutputConfigurationParameter1
 Configuration21_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=60000000|ViewY=40000000|LookAtX=49150000|LookAtY=53550000|LookAtZ=-1000|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=6.3E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType22=BOM_PartType
@@ -887,11 +887,11 @@ PromptOverwrite1=1
 ZoomLevel1=80
 FitSCHPrintSizeToDoc1=1
 FitPCBPrintSizeToDoc1=1
-GenerateNetsInfo1=1
+GenerateNetsInfo1=0
 MarkPins1=1
 MarkNetLabels1=1
 MarkPortsId1=1
-OutputFilePath1=
+OutputFilePath1=G:\My_Designs\iXBT\Scope2010\AttenuatorProto\Attenuator_Proto.PDF
 PublishMethod3=1
 OpenOutput3=1
 PromptOverwrite3=1
